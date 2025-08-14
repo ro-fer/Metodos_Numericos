@@ -1,0 +1,5 @@
+function [x1,x2,x3]=ejemplofunction(N) %%EL ARCHIVO SIEMPRE SE LLAMA IGUAL QUE NUESTRA FUNCION
+a=0;
+for n=1:100
+    a=1/N +a;
+end
